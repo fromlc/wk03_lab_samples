@@ -1,0 +1,14 @@
+sequential if
+which command did the user type?
+can use switch for this
+
+checking for value in a range
+user younger than 13
+user older than 18
+user older than 65
+user paid for subscription
+
+
+screening out values
+number of hours, minutes, and seconds in 752,000 seconds
+
