@@ -47,7 +47,7 @@ bool doCommand(char cmd) {
 char getMenuOption() {
 
 	// display menu
-	cout << "\nN)orth, S)outh, E)ast, W)est, U)p, D)own, Q)uit ? ";
+	cout << "\nN)orth, S)outh, E)ast, W)est, U)p, D)own, Q)uit? ";
 
 	// get user command
 	char cmd;
@@ -68,6 +68,7 @@ void commandLoop() {
 
 		while (!doCommand(cmd)) {
 			cout << "I don't know that command, try again\n";
+			cmd = getMenuOption();
 		}
 
 	} while (cmd != 'q');

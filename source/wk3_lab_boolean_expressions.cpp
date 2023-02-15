@@ -84,18 +84,19 @@ int main() {
     // by omitting the break - but this is dangerous because it's not obvious!
     //--------------------------------------------------------------------------
 
+    x = 0;
     switch (x) {
     case 0:
-        cout << "x is 0";
+        cout << "x is 0\n";
         break;
     case 1:
-        cout << "x is 1";
+        cout << "x is 1\n";
         break;
     case 2:
-        cout << "x is 2";
+        cout << "x is 2\n";
         break;
     default:
-        cout << "x is not 0, x is not 1, x is not 2";
+        cout << "x is not 0, x is not 1, x is not 2\n";
     }
     cout << "\n\n";
 
