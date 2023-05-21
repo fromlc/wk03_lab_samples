@@ -58,7 +58,7 @@ char getMenuOption() {
 //------------------------------------------------------------------------------
 //  - display menu
 //  - execute each user command
-//  - exit loop on execute user commands
+//  - exit loop on quit command
 //------------------------------------------------------------------------------
 void commandLoop() {
 
